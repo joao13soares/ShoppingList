@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.shoppinglists"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:5:5-83
+11-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\João\.gradle\caches\transforms-2\files-2.1\660e474e50014a5f8879044348827dbc\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\João\.gradle\caches\transforms-2\files-2.1\660e474e50014a5f8879044348827dbc\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+13
+14    <application
+14-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:7:5-25:19
+15        android:allowBackup="true"
+15-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.2] C:\Users\João\.gradle\caches\transforms-2\files-2.1\2c5ca31eee5b70cd23903b48178319c2\core-1.0.2\AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:9:9-43
+19        android:label="@string/app_name"
+19-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:10:9-41
+20        android:roundIcon="@drawable/shopping_lists_icon"
+20-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:11:9-58
+21        android:supportsRtl="true"
+21-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:12:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:13:9-40
+24        <activity android:name="com.example.shoppinglists.ChangeShoppingListActivity" />
+24-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:14:9-63
+24-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:14:19-61
+25        <activity android:name="com.example.shoppinglists.ShoppingListActivity" />
+25-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:15:9-57
+25-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:15:19-55
+26        <activity android:name="com.example.shoppinglists.ItemActivity" />
+26-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:16:9-49
+26-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:16:19-47
+27        <activity android:name="com.example.shoppinglists.NewShoppingListNameActivity" />
+27-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:17:9-64
+27-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:17:19-62
+28        <activity android:name="com.example.shoppinglists.MainActivity" >
+28-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:18:9-24:20
+28-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:18:19-47
+29            <intent-filter>
+29-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:19:13-23:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:20:17-69
+30-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:20:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:22:17-77
+32-->C:\Android\android_studio_projects\ShoppingLists\app\src\main\AndroidManifest.xml:22:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\João\.gradle\caches\transforms-2\files-2.1\7078f747cbbecac3e4b6d09a6d9c21f3\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+36            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+36-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\João\.gradle\caches\transforms-2\files-2.1\7078f747cbbecac3e4b6d09a6d9c21f3\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+37            android:exported="false"
+37-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\João\.gradle\caches\transforms-2\files-2.1\7078f747cbbecac3e4b6d09a6d9c21f3\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+38            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+38-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\João\.gradle\caches\transforms-2\files-2.1\7078f747cbbecac3e4b6d09a6d9c21f3\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+39
+40        <provider
+40-->[com.google.firebase:firebase-common:16.0.3] C:\Users\João\.gradle\caches\transforms-2\files-2.1\5f26d3272aa0dc518d494a84e9023ac3\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+41            android:name="com.google.firebase.provider.FirebaseInitProvider"
+41-->[com.google.firebase:firebase-common:16.0.3] C:\Users\João\.gradle\caches\transforms-2\files-2.1\5f26d3272aa0dc518d494a84e9023ac3\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+42            android:authorities="com.example.shoppinglists.firebaseinitprovider"
+42-->[com.google.firebase:firebase-common:16.0.3] C:\Users\João\.gradle\caches\transforms-2\files-2.1\5f26d3272aa0dc518d494a84e9023ac3\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+43            android:exported="false"
+43-->[com.google.firebase:firebase-common:16.0.3] C:\Users\João\.gradle\caches\transforms-2\files-2.1\5f26d3272aa0dc518d494a84e9023ac3\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+44            android:initOrder="100" />
+44-->[com.google.firebase:firebase-common:16.0.3] C:\Users\João\.gradle\caches\transforms-2\files-2.1\5f26d3272aa0dc518d494a84e9023ac3\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+45
+46        <meta-data
+46-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\João\.gradle\caches\transforms-2\files-2.1\ce2f745b90dbbec0147fcf20cfcf378f\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+47            android:name="com.google.android.gms.version"
+47-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\João\.gradle\caches\transforms-2\files-2.1\ce2f745b90dbbec0147fcf20cfcf378f\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+48            android:value="@integer/google_play_services_version" />
+48-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\João\.gradle\caches\transforms-2\files-2.1\ce2f745b90dbbec0147fcf20cfcf378f\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+49    </application>
+50
+51</manifest>

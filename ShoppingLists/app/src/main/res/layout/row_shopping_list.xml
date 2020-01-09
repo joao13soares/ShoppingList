@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/LightBlue">
+
+    <ImageView
+        android:id="@+id/imageViewShoppingList"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textViewShoppingListName"
+        android:layout_width="300dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_toStartOf="@+id/buttonRemoveShoppingList"
+        android:layout_toLeftOf="@+id/buttonRemoveShoppingList"
+        android:layout_toEndOf="@+id/imageViewShoppingList"
+        android:layout_toRightOf="@+id/imageViewShoppingList"
+        android:background="@color/LightBlue"
+        android:singleLine="true"
+        android:text="ShoppingListName"
+        android:textColor="@color/DarkBlue"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewShoppingListNumEntries"
+        android:layout_width="300dp"
+        android:layout_height="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_toStartOf="@+id/buttonRemoveShoppingList"
+        android:layout_toLeftOf="@+id/buttonRemoveShoppingList"
+        android:layout_toEndOf="@+id/imageViewShoppingList"
+        android:layout_toRightOf="@+id/imageViewShoppingList"
+        android:background="@color/LightBlue"
+        android:singleLine="true"
+        android:text="ShoppingListNumEntries"
+        android:textColor="@color/DarkCyan" />
+
+    <TextView
+        android:id="@+id/textViewShoppingListCost"
+        android:layout_width="300dp"
+        android:layout_height="24dp"
+        android:layout_alignEnd="@+id/textViewShoppingListNumEntries"
+        android:layout_alignRight="@+id/textViewShoppingListNumEntries"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="1dp"
+        android:layout_toEndOf="@+id/imageViewShoppingList"
+        android:layout_toRightOf="@+id/imageViewShoppingList"
+        android:background="@color/LightBlue"
+        android:singleLine="true"
+        android:text="ShoppingListCost"
+        android:textColor="@color/DarkCyan"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/buttonRemoveShoppingList"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/DarkCyan"
+        android:text="Remove"
+        android:textColor="@color/LightBlue"
+        android:textSize="15dp" />
+</RelativeLayout>

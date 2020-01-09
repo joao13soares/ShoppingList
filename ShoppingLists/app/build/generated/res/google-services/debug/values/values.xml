@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">370421761625-lhsnh6ohtipnj09h3joens15nhfsmarv.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://shoppinglists-97622.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">370421761625</string>
+    <string name="google_api_key" translatable="false">AIzaSyDhRgSFpDhWX1OASLM-KEgA9vQjAnj5SPY</string>
+    <string name="google_app_id" translatable="false">1:370421761625:android:5a089eafbd0bfee4ea9348</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDhRgSFpDhWX1OASLM-KEgA9vQjAnj5SPY</string>
+    <string name="google_storage_bucket" translatable="false">shoppinglists-97622.appspot.com</string>
+    <string name="project_id" translatable="false">shoppinglists-97622</string>
+</resources>
