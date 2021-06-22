@@ -7,4 +7,4 @@ Shopping List Android app made in Kotlin, as a project for the Mobile Computing 
 With this app it is possible to create, edit, share and save (Firebase) several shopping lists entries, from existent grocery items.
 
 This was an individual project made by:
-- João Soares
+- João Soares https://github.com/joao13soares
